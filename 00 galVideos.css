@@ -1,0 +1,183 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+section {
+  width: 80%;
+  margin: 0px auto;
+  padding: 4px;
+  background-color: brown;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+}
+
+.padre {
+  width: 100%;
+  vertical-align: top;
+  display: inline-block;
+  margin: auto;
+  width: 80%;
+}
+
+.lateral {
+	width: 19%;
+	display: block;
+}
+
+.iframegalery {
+	width: 100%;
+	height: 900px;
+}
+
+.iframelateral {
+	width: 100%;
+	height: 900px;
+}
+
+.onevid, .twovid, .threevid, .fourvid {
+	width: 100%;
+	display: block;
+	margin: 1px auto;
+	height: 225px;	
+}
+
+#cajavideo {
+	width: 100%;
+	height: 225px;		
+	position: relative;
+	overflow: hidden;
+}
+
+.imgvideo {
+	width: 100%;
+	height: 100%;
+}
+
+.capatransparente {
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	z-index: 10;
+	background: rgba(0,0,0,.1);
+	width: 100%;
+	height: 225px;		
+	padding: .5em;
+}
+
+#cajavideopie {
+	width: 80%;
+	height: 115px;
+	position: relative;
+	overflow: hidden;
+	dsplay: none;
+}
+
+.capatransparentepie {
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	z-index: 10;
+	background: rgba(0,0,0,.1);
+	width: 100%;
+	height: 115px;
+	padding: .5em;
+}
+
+/*Tablets */
+
+@media screen and (max-width: 800px) {
+
+section {
+  width: 100%;
+  margin: 0px auto;
+  padding: 4px;
+  background-color: brown;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.padre {
+  width: 100%;
+  vertical-align: top;
+  display: inline-block;
+  margin: auto;
+  width: 96%;
+}
+
+.lateral {
+  margin: auto;
+	width: 96%;
+	display: flex;	
+}
+
+/*Celulares*/
+@media screen and (max-width: 400px) {
+
+section {
+  width: 100%;
+  margin: 0px auto;
+  padding: 4px;
+  background-color: brown;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.padre {
+  width: 100%;
+  vertical-align: top;
+  display: inline-block;
+  margin: auto;
+  width: 96%;
+}
+
+.lateral {
+  margin: auto;
+	width: 96%;
+	display: flex;	
+}
+
+
+.iframegalery {
+	width: 100%;
+	height: 500px;
+}
+
+.iframelateral {
+	width: 100%;
+	height: 500px;
+}
+
+.onevid, .twovid, .threevid, .fourvid {
+	width: 100%;
+	display: block;
+	margin: 1px auto;
+	height: 125px;	
+}
+
+#cajavideo {
+	width: 100%;
+	height: 125px;		
+	position: relative;
+	overflow: hidden;
+}
+
+.imgvideo {
+	width: 100%;
+	height: 100%;
+}
+
+.capatransparente {
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	z-index: 10;
+	background: rgba(0,0,0,.1);
+	width: 100%;
+	height: 125px;		
+	padding: .5em;
+}
+
